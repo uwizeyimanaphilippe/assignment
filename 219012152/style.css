@@ -1,0 +1,129 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background: #eee;
+	font-family: times new roman;
+	background-color: none;
+	overflow: hidden;
+	opacity: 0.9;
+}
+
+
+
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+
+h1, h2, h3 {
+	margin: 0;
+}
+#container {
+	background: white;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#header {
+background: #66CCFF;
+color: white;
+text-align: center;
+padding: 10px;
+}
+
+#lmage {
+	width: 980px;
+}
+
+#content {
+	padding: 10px;
+}
+
+#block1 {
+	width: 50%;
+	float: left;
+}
+
+#block2 {
+	width: 50%;
+	float: right;
+}
+
+#menu {
+	background-color: none;
+	
+}
+
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+
+}
+
+#nav .selected{
+	font-weight:  bold;
+}
+
+#mai {
+	width: 600px;
+	float: right;
+}
+
+#footer{
+	clear: both;
+	text-align: center;
+	padding: 8px;
+	background: #999999;
+	color: white;
+}
+
+
+
+ul, nav{
+	padding: 0;
+	list-style-type: none;
+}
+header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	position: fixed;
+	padding: 10px 100px 0;
+}
+
+header nav ul{
+	display: flex;
+}
+
+header nav li{
+	margin: 0 15px;
+}
+
+header nav li:first-child{
+margin-left: o;
+}
+
+header nav li:last-child{
+margin-right: o;
+}
